@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+<title>COMMUNICA — Professional Communication</title>
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%2307111e'/%3E%3Cpath d='M70 25C62 19 53 16 43 18C25 21 13 35 13 51C13 69 27 83 44 86C56 88 68 83 77 74L63 61C58 67 52 70 45 69C36 68 30 61 30 51C30 42 36 34 45 32C52 30 59 33 63 39L78 27C75 26 72 25 70 25Z' fill='%234de8ff'/%3E%3Ccircle cx='78' cy='25' r='7' fill='white'/%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<!-- =========================================================
+     SPLASH
+========================================================= -->
+
+<div class="splash" id="splash">
+
+    <div class="stars"></div>
+
+    <div class="splash-content">
+
+        <div class="splash-logo">
+
+            <div class="logo-icon"></div>
+
+            COMMUNICA
+
+        </div>
+
+        <div class="splash-earth-wrap">
+
+            <div class="orbit"></div>
+            <div class="orbit two"></div>
+            <div class="orbit three"></div>
+
+            <div class="splash-earth"></div>
+
+            <div class="splash-line line1"></div>
+            <div class="splash-line line2"></div>
+            <div class="splash-line line3"></div>
+
+            <div class="s-node s1"></div>
+            <div class="s-node s2"></div>
+            <div class="s-node s3"></div>
+            <div class="s-node s4"></div>
+
+        </div>
+
+        <div class="splash-text">
+            CONNECT • SPEAK • LISTEN • IMPACT
+        </div>
+
+        <div class="splash-loading">
+            PREPARING YOUR LEARNING JOURNEY
+        </div>
+
+        <div class="progress">
+            <span></span>
+        </div>
+
+    </div>
+
+</div>
+
+<!-- =========================================================
+     MAIN WEBSITE
+========================================================= -->
+
+<div id="mainWebsite">
+
+<!-- NAV -->
+
+<nav class="nav">
+
+    <button class="brand" onclick="home()">
+
+        <div class="logo-icon"></div>
+
+        COMMUNICA
+
+    </button>
+
+    <div class="nav-links">
+
+        <button onclick="home()">
+            Home
+        </button>
+
+        <button onclick="openLearning()">
+            All Chapters
+        </button>
+
+        <button onclick="openAdmin()">
+            Admin
+        </button>
+
+    </div>
+
+    <div class="nav-right">
+
+        <button
+            class="nav-admin"
+            onclick="openAdmin()"
+        >
+            Admin
+        </button>
+
+        <button
+            class="nav-start"
+            onclick="openLearning()"
+        >
+            Start Learning
+        </button>
+
+    </div>
+
+</nav>
+
+<!-- =========================================================
+     HERO
+========================================================= -->
+
+<section class="hero" id="home">
+
+    <div>
+
+        <div class="eyebrow">
+
+            <span class="live"></span>
+
+            PROFESSIONAL COMMUNICATION
+
+        </div>
+
+        <h1>
+
+            Your voice.<br>
+
+            Your <span>ideas.</span><br>
+
+            Your <em>impact.</em>
+
+        </h1>
+
+        <p>
+
+            Communication is the bridge between what you think
+            and what the world understands. Learn how to speak,
+            listen, write and present with confidence.
+
+        </p>
+
+        <div class="quote">
+
+            Great communication doesn't make you louder.
+            It makes your message clearer.
+
+        </div>
+
+        <button
+            class="main-start"
+            onclick="openLearning()"
+        >
+
+            Start Learning
+
+            <span>→</span>
+
+        </button>
+
+    </div>
+
+    <!-- WORLD -->
+
+    <div class="world-area">
+
+        <div class="world">
+
+            <div class="glow"></div>
+
+            <div class="world-orbit o1"></div>
+            <div class="world-orbit o2"></div>
+            <div class="world-orbit o3"></div>
+
+            <div class="earth"></div>
+
+            <!-- ROUTES -->
+
+            <div class="connection c1"></div>
+            <div class="connection c2"></div>
+            <div class="connection c3"></div>
+            <div class="connection c4"></div>
+            <div class="connection c5"></div>
+            <div class="connection c6"></div>
+            <div class="connection c7"></div>
+            <div class="connection c8"></div>
+            <div class="connection c9"></div>
+            <div class="connection c10"></div>
+
+            <!-- NODES -->
+
+            <div class="node n1"></div>
+            <div class="node n2"></div>
+            <div class="node n3"></div>
+            <div class="node n4"></div>
+            <div class="node n5"></div>
+            <div class="node n6"></div>
+            <div class="node n7"></div>
+            <div class="node n8"></div>
+            <div class="node n9"></div>
+            <div class="node n10"></div>
+
+            <!-- PEOPLE -->
+
+            <div class="person p1">
+
+                <img
+                    src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=300&q=85"
+                    alt="Professional communicator"
+                >
+
+            </div>
+
+            <div class="person p2">
+
+                <img
+                    src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&q=85"
+                    alt="Professional communicator"
+                >
+
+            </div>
+
+            <div class="person p3">
+
+                <img
+                    src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=300&q=85"
+                    alt="Professional communicator"
+                >
+
+            </div>
+
+            <div class="person p4">
+
+                <img
+                    src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=300&q=85"
+                    alt="Professional communicator"
+                >
+
+            </div>
+
+            <div class="person p5">
+
+                <img
+                    src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=300&q=85"
+                    alt="Professional communicator"
+                >
+
+            </div>
+
+            <div class="person p6">
+
+                <img
+                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=85"
+                    alt="Professional communicator"
+                >
+
+            </div>
+
+            <!-- LABELS -->
+
+            <div class="world-label l1">
+                GLOBAL CONNECTION
+            </div>
+
+            <div class="world-label l2">
+                HUMAN CONNECTION
+            </div>
+
+            <div class="world-label l3">
+                IDEAS IN MOTION
+            </div>
+
+            <!-- THOUGHTS -->
+
+            <div class="thought t1">
+
+                <strong>
+                    LISTEN FIRST
+                </strong>
+
+                Understanding comes before
+                being understood.
+
+            </div>
+
+            <div class="thought t2">
+
+                <strong>
+                    SPEAK CLEARLY
+                </strong>
+
+                Simple words can carry
+                powerful ideas.
+
+            </div>
+
+            <div class="thought t3">
+
+                <strong>
+                    CONNECT
+                </strong>
+
+                Every conversation can
+                create an opportunity.
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================================================
+     BAND
+========================================================= -->
+
+<div class="band">
+
+    <span>
+        SPEAK WITH CONFIDENCE
+    </span>
+
+    <span>
+        LISTEN WITH PURPOSE
+    </span>
+
+    <span>
+        WRITE WITH CLARITY
+    </span>
+
+    <span>
+        PRESENT WITH IMPACT
+    </span>
+
+</div>
+
+<!-- =========================================================
+     HUMAN COMMUNICATION
+========================================================= -->
+
+<section class="section">
+
+    <div class="kicker">
+        THE HUMAN SIDE OF COMMUNICATION
+    </div>
+
+    <h2>
+        Communication connects people before it connects ideas.
+    </h2>
+
+    <p class="section-description">
+
+        Whether it is a classroom discussion, an interview,
+        a presentation or a simple conversation, communication
+        shapes how people understand us and how we understand them.
+
+    </p>
+
+    <div class="story-grid">
+
+        <div class="story-card">
+
+            <img
+                src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1000&q=85"
+                alt="Team communication"
+            >
+
+            <div class="story-overlay">
+
+                <small>
+                    TEAMWORK
+                </small>
+
+                <h3>
+                    One idea can move a team.
+                </h3>
+
+            </div>
+
+        </div>
+
+        <div class="story-card">
+
+            <img
+                src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1000&q=85"
+                alt="Professional discussion"
+            >
+
+            <div class="story-overlay">
+
+                <small>
+                    DISCUSSION
+                </small>
+
+                <h3>
+                    Better conversations create better decisions.
+                </h3>
+
+            </div>
+
+        </div>
+
+        <div class="story-card">
+
+            <img
+                src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1000&q=85"
+                alt="Learning"
+            >
+
+            <div class="story-overlay">
+
+                <small>
+                    LEARNING
+                </small>
+
+                <h3>
+                    Every conversation is a chance to learn.
+                </h3>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================================================
+     IMAGE SECTION
+========================================================= -->
+
+<section class="section">
+
+    <div class="kicker">
+        COMMUNICATION IN ACTION
+    </div>
+
+    <h2>
+        Ideas travel through people.
+    </h2>
+
+    <p class="section-description">
+
+        Professional communication is not only about speaking.
+        It is listening, writing, observing, presenting and
+        understanding the person in front of you.
+
+    </p>
+
+    <div class="image-grid">
+
+        <div class="image-card big">
+
+            <img
+                src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=1200&q=85"
+                alt="Collaboration"
+            >
+
+            <div class="image-label">
+                COLLABORATION
+            </div>
+
+        </div>
+
+        <div class="image-card">
+
+            <img
+                src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=800&q=85"
+                alt="Team"
+            >
+
+            <div class="image-label">
+                TEAM
+            </div>
+
+        </div>
+
+        <div class="image-card">
+
+            <img
+                src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=800&q=85"
+                alt="Meeting"
+            >
+
+            <div class="image-label">
+                MEETING
+            </div>
+
+        </div>
+
+        <div class="image-card">
+
+            <img
+                src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=800&q=85"
+                alt="Conversation"
+            >
+
+            <div class="image-label">
+                CONVERSATION
+            </div>
+
+        </div>
+
+        <div class="image-card">
+
+            <img
+                src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=800&q=85"
+                alt="People"
+            >
+
+            <div class="image-label">
+                PEOPLE
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================================================
+     SPECIAL THOUGHT
+========================================================= -->
+
+<section class="thought-section">
+
+    <h2>
+
+        “The most powerful communication is not the one
+        that sounds impressive. It is the one that makes
+        another person understand.”
+
+    </h2>
+
+    <p>
+
+        Learn to turn thoughts into clear messages,
+        conversations into connections and communication
+        into opportunities.
+
+    </p>
+
+    <div class="thought-author">
+        COMMUNICA • PROFESSIONAL COMMUNICATION
+    </div>
+
+</section>
+
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+
+<footer>
+
+    <span>
+        © 2026 COMMUNICA
+    </span>
+
+    <span>
+        Professional Communication Learning Platform
+    </span>
+
+</footer>
+
+</div>
+
+<!-- =========================================================
+     LEARNING PAGE
+========================================================= -->
+
+<section
+    class="page"
+    id="learningPage"
+>
+
+    <div class="page-nav">
+
+        <button
+            class="back"
+            onclick="closeLearning()"
+        >
+            ← Home
+        </button>
+
+        <div class="brand">
+
+            <div class="logo-icon"></div>
+
+            COMMUNICA
+
+        </div>
+
+        <button
+            class="back"
+            onclick="openAdmin()"
+        >
+            Admin
+        </button>
+
+    </div>
+
+    <main class="learning-body">
+
+        <div class="learning-head">
+
+            <div>
+
+                <div class="kicker">
+                    YOUR LEARNING JOURNEY
+                </div>
+
+                <h1>
+                    Start Learning.
+                </h1>
+
+                <p>
+                    Explore the chapters added by the Admin.
+                    Your communication journey starts here.
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- EMPTY -->
+
+        <div
+            class="empty"
+            id="emptyState"
+        >
+
+            <div class="empty-icon">
+                +
+            </div>
+
+            <h3>
+                No chapters yet
+            </h3>
+
+            <p>
+
+                Your learning library is waiting.
+                Ask the Admin to add a chapter name
+                and upload its PDF.
+
+            </p>
+
+            <button onclick="openAdmin()">
+                Go to Admin →
+            </button>
+
+        </div>
+
+        <!-- CHAPTER GRID -->
+
+        <div
+            class="chapter-grid"
+            id="chapterGrid"
+        ></div>
+
+    </main>
+
+</section>
+
+<!-- =========================================================
+     ADMIN LOGIN
+========================================================= -->
+
+<div
+    class="login-overlay"
+    id="loginOverlay"
+>
+
+    <div class="login">
+
+        <div class="login-brand">
+
+            <div class="logo-icon"></div>
+
+            COMMUNICA ADMIN
+
+        </div>
+
+        <h2>
+            Admin Login
+        </h2>
+
+        <p>
+            Sign in to manage your learning chapters.
+        </p>
+
+        <form id="loginForm">
+
+            <div class="field">
+
+                <label>
+                    USERNAME
+                </label>
+
+                <input
+                    id="username"
+                    type="text"
+                    autocomplete="username"
+                    placeholder="Enter username"
+                    required
+                >
+
+            </div>
+
+            <div class="field">
+
+                <label>
+                    PASSWORD
+                </label>
+
+                <div class="password-box">
+
+                    <input
+                        id="password"
+                        type="password"
+                        autocomplete="current-password"
+                        placeholder="Enter password"
+                        required
+                    >
+
+                    <button
+                        type="button"
+                        class="show-password"
+                        id="showPassword"
+                        onclick="togglePassword()"
+                    >
+                        SHOW
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div
+                class="error"
+                id="loginError"
+            >
+                Incorrect username or password.
+            </div>
+
+            <button
+                class="login-submit"
+                type="submit"
+            >
+                Sign In →
+            </button>
+
+        </form>
+
+        <button
+            class="login-cancel"
+            onclick="closeAdmin()"
+        >
+            Cancel
+        </button>
+
+    </div>
+
+</div>
+
+<!-- =========================================================
+     ADMIN PANEL
+========================================================= -->
+
+<section
+    class="admin"
+    id="adminPanel"
+>
+
+    <div class="admin-nav">
+
+        <div class="brand">
+
+            <div class="logo-icon"></div>
+
+            COMMUNICA ADMIN
+
+        </div>
+
+        <button
+            class="logout"
+            onclick="logout()"
+        >
+            Logout
+        </button>
+
+    </div>
+
+    <main class="admin-body">
+
+        <div class="kicker">
+            CONTENT MANAGEMENT
+        </div>
+
+        <h1>
+            Admin Dashboard
+        </h1>
+
+        <p>
+            Add and manage your Professional Communication chapters.
+        </p>
+
+        <!-- ADD -->
+
+        <div class="admin-card">
+
+            <h3>
+                Add New Chapter
+            </h3>
+
+            <p>
+                Enter a chapter name and upload its PDF.
+            </p>
+
+            <div class="add-form">
+
+                <div class="full">
+
+                    <label>
+                        CHAPTER NAME
+                    </label>
+
+                    <input
+                        id="chapterName"
+                        type="text"
+                        placeholder="Example: Unit 1 — Communication Process"
+                    >
+
+                </div>
+
+                <div class="full">
+
+                    <label>
+                        CHAPTER PDF
+                    </label>
+
+                    <div class="pdf-upload">
+
+                        <strong>
+                            Select PDF
+                        </strong>
+
+                        <br>
+
+                        <input
+                            id="chapterPDF"
+                            type="file"
+                            accept="application/pdf,.pdf"
+                        >
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <button
+                class="save-chapter"
+                onclick="addChapter()"
+            >
+                Add Chapter →
+            </button>
+
+        </div>
+
+        <!-- LIST -->
+
+        <div class="admin-card">
+
+            <h3>
+                Uploaded Chapters
+            </h3>
+
+            <p>
+                Manage your existing learning material.
+            </p>
+
+            <div
+                class="admin-list"
+                id="adminList"
+            ></div>
+
+        </div>
+
+    </main>
+
+</section>
+
+<!-- TOAST -->
+
+<div
+    class="toast"
+    id="toast"
+></div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
